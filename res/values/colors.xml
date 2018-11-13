@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#011b05</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccentMinor">#a9154b</color>
+    <color name="colorLiptalker">#151501</color>
+    <color name="colorLiptalkerPurple">#48043f</color>
+    <color name="colorLiptalkermorePurple">#A40990</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorLine">#9c9c9c</color>
+
+</resources>

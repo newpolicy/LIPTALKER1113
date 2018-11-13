@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorLiptalker">
+
+    <ImageView
+        android:id="@+id/Profileimg_ImageView_ProfileActivity"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#bcbcbc"
+        android:foregroundGravity="center"
+        android:src="@drawable/main_talker_focused"/>
+
+    <EditText
+        android:id="@+id/Name_EditText_ProfileActiviy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="Name 설정"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:theme="@style/EditTheme" />
+
+    <Button
+        android:id="@+id/Save_Button_ProfileActivity"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  프로필 저장  "
+        android:theme="@style/ThemeOverlay.MyDarkButton" />
+
+</LinearLayout>

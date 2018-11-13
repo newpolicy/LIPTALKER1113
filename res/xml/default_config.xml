@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>liptalker_backgroundcolor</key>
+        <value>#0e0e00</value>
+    </entry>
+    <entry>
+        <key>liptalker_message_Caps</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>liptalker_message</key>
+        <value>서버 점검중입니다 잠시후에 만나요</value>
+    </entry>
+</defaultsMap>
+    <!-- END xml_defaults -->

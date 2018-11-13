@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_talker"
+        android:icon="@drawable/main_talker"
+        android:title=""
+        />
+    <item
+        android:id="@+id/action_chat"
+        android:icon="@drawable/main_chat"
+        android:title="" />
+    <item
+        android:id="@+id/action_live"
+        android:icon="@drawable/main_live"
+        android:title="" />
+    <item
+        android:id="@+id/action_me"
+        android:icon="@drawable/main_mesearch"
+        android:title="" />
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/main_settings"
+        android:title="" />
+</menu>

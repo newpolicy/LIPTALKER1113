@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity"
+    android:background="@color/colorLiptalker">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/phonenumber_RelativeLayout_SignupActivity"
+        android:gravity="center"
+        android:background="@color/colorLiptalker"
+        android:visibility="visible">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="23dp"
+            android:text="국가코드"
+            android:textSize="17dp"
+            android:textColor="#ffffff"
+            android:id="@+id/national_TextView_SignupActivity"
+            android:gravity="center"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/national_TextView_SignupActivity"
+            android:layout_marginTop="23dp"
+            android:hint=" 01012341234 "
+            android:inputType="phone"
+            android:background="#ffffff"
+            android:textColor="@color/colorLiptalker"
+            android:padding="10dp"
+            android:id="@+id/phonenumber_EditText_SignupActivity"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/national_TextView_SignupActivity"
+            android:layout_alignBaseline="@id/national_TextView_SignupActivity"
+            android:textColor="@color/colorLiptalker"
+            android:background="#ffffff"
+            android:text="+82"
+            android:gravity="center"
+            android:hint=" Code "
+            android:id="@+id/nationalcode_EditText_SignupActivity"/>
+
+        <Button
+            android:id="@+id/startverification_Button_SignupActivity"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="인증 코드 전송"
+            android:layout_gravity="center"
+            android:layout_alignRight="@id/phonenumber_EditText_SignupActivity"
+            android:layout_below="@id/phonenumber_EditText_SignupActivity"
+            android:layout_marginTop="20dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/verification_SignupActivity_RelativeLayout"
+        android:visibility="invisible"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/fieldVerificationCode_EditText_SignupActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="23dp"
+            android:background="#FFFFFF"
+            android:hint=" 인증코드 입력  "
+            android:inputType="number"
+            android:padding="10dp"/>
+        <Button
+            android:id="@+id/verification_Button_SignupActivity"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="19dp"
+            android:text="인증확인"
+            android:layout_alignTop="@id/fieldVerificationCode_EditText_SignupActivity"
+            android:layout_alignBaseline="@id/fieldVerificationCode_EditText_SignupActivity"
+            android:layout_toRightOf="@id/fieldVerificationCode_EditText_SignupActivity" />
+        <Button
+            android:id="@+id/resend_Button_SignupActivity"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:text="재발송"
+            android:layout_below="@id/verification_Button_SignupActivity"/>
+        <Button
+            android:id="@+id/editPhonenumber_Button_SignupActivity"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="전화번호 수정"
+            android:layout_toRightOf="@id/resend_Button_SignupActivity"
+            android:layout_alignBaseline="@id/resend_Button_SignupActivity"/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>
